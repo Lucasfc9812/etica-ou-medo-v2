@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Você é ético… ou só tem medo?</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===================== CUSTOM CURSOR ===================== -->
+    <div id="custom-cursor">
+        <div id="cursor-ring"></div>
+        <div id="cursor-dot"></div>
+    </div>
+
+    <!-- ===================== HOME ===================== -->
+    <section id="home" class="scene active">
+        <div class="home-content">
+            <div class="typing-wrapper">
+                <span id="typing-text" class="typing-active"></span>
+            </div>
+            <a href="#" id="btn-entrar" class="btn-enter hidden">Entrar</a>
+        </div>
+    </section>
+
+    <!-- ===================== CASO 1 – Amanda Todd ===================== -->
+    <section id="caso1" class="scene">
+        <div class="slide-content">
+            <div class="tag red">CASO 1</div>
+            <div class="victim-header">
+                <div class="victim-photo-wrap">
+                    <img src="amanda.jpg" alt="Amanda Todd" class="victim-photo" />
+                    <div class="victim-photo-overlay"></div>
+                </div>
+                <h2 class="reveal">Amanda Todd</h2>
+            </div>
+            <div class="narrative" id="narrative-amanda">
+                <p class="line">Amanda Todd tinha 15 anos.</p>
+                <p class="line">Era uma adolescente comum.</p>
+                <p class="line">Gostava de música e de conversar na internet.</p>
+                <p class="line">Como muitos da idade dela, queria se sentir aceita.</p>
+                <p class="line pause"></p>
+                <p class="line">Em uma conversa online, um homem começou a elogiá-la.</p>
+                <p class="line">Disse que ela era bonita, especial, que podia confiar nele.</p>
+                <p class="line">Durante uma videochamada, pediu que ela mostrasse o corpo.</p>
+                <p class="line">Prometeu que ninguém saberia.</p>
+                <p class="line pause"></p>
+                <p class="line">Ela acreditou.</p>
+                <p class="line pause"></p>
+                <p class="line">Ele tirou uma captura de tela.</p>
+                <p class="line pause"></p>
+                <p class="line">A imagem foi enviada para colegas, para a escola,</p>
+                <p class="line">para pessoas que ela nem conhecia.</p>
+                <p class="line pause"></p>
+                <p class="line">Amanda mudou de escola. Mudou de cidade.</p>
+                <p class="line pause"></p>
+                <p class="line">Mas a imagem chegava antes dela.</p>
+                <p class="line pause"></p>
+                <p class="line">Vieram as risadas, os comentários, as agressões.</p>
+                <p class="line">Ela tentou se machucar mais de uma vez.</p>
+                <p class="line pause"></p>
+                <p class="line">Em 2012, publicou um vídeo no YouTube</p>
+                <p class="line">contando tudo em silêncio —</p>
+                <p class="line">apenas com folhas de papel.</p>
+                <p class="line pause"></p>
+                <p class="line">Um mês depois…</p>
+                <p class="line big-pause"></p>
+                <p class="line heavy climax">"Em 2012, ela tirou a própria vida."</p>
+            </div>
+            <div class="questions hidden" id="q-amanda">
+                <p class="question-lead">Quem errou?</p>
+                <div class="question-block">
+                    <span class="q-item">Quem compartilhou?</span>
+                    <span class="q-sep">ou</span>
+                    <span class="q-item">Quem assistiu?</span>
+                </div>
+                <div class="phrase-final">
+                    "Você acha errado compartilhar…<br />
+                    <em>ou acha errado quando dá problema?"</em>
+                </div>
+            </div>
+            <button class="nav-btn" id="next-caso1">Continuar →</button>
+        </div>
+    </section>
+
+    <!-- ===================== CASO 2 – Cancelamento ===================== -->
+    <section id="caso2" class="scene">
+        <div class="slide-content">
+            <div class="tag yellow">CASO 2</div>
+            <div class="victim-header">
+                <div class="victim-photo-wrap">
+                    <img src="karol.png" alt="Karol Conká" class="victim-photo" />
+                    <div class="victim-photo-overlay"></div>
+                </div>
+                <h2 class="reveal">Karol Conká — BBB 21</h2>
+            </div>
+            <div class="narrative" id="narrative-karol">
+                <p class="line">Antes do reality show,</p>
+                <p class="line">Karol Conká já era cantora reconhecida.</p>
+                <p class="line">Tinha carreira, público e posicionamento forte.</p>
+                <p class="line">Entrou no programa como favorita.</p>
+                <p class="line pause"></p>
+                <p class="line">Confiante. Segura.</p>
+                <p class="line pause"></p>
+                <p class="line">Mas dentro da casa surgiram conflitos.</p>
+                <p class="line">Falas duras.</p>
+                <p class="line">Posturas que parte do público passou a enxergar como arrogância.</p>
+                <p class="line pause"></p>
+                <p class="line">O que era jogo lá dentro</p>
+                <p class="line">virou julgamento aqui fora.</p>
+                <p class="line pause"></p>
+                <p class="line">Em poucas semanas,</p>
+                <p class="line">perdeu seguidores, contratos e reputação.</p>
+                <p class="line">Saiu com uma das maiores rejeições da história do programa.</p>
+                <p class="line pause"></p>
+                <p class="line">Quando deixou o confinamento,</p>
+                <p class="line">encontrou cancelamento em massa.</p>
+                <p class="line">Ofensas, ataques, exposição constante.</p>
+                <p class="line pause"></p>
+                <p class="line">Ela pediu desculpas. Tentou reconstruir a imagem.</p>
+                <p class="line pause"></p>
+                <p class="line">Parte do público aceitou.</p>
+                <p class="line">Parte nunca mais.</p>
+            </div>
+            <div class="questions hidden" id="q-karol">
+                <div class="question-block stacked">
+                    <span class="q-item">Cancelamento é consequência?</span>
+                    <span class="q-sep">ou</span>
+                    <span class="q-item">Vingança coletiva?</span>
+                </div>
+                <p class="sub-question">Existe limite para punição digital?</p>
+                <div class="tone-drop">
+                    <p class="memory-line">"Você já falou algo que se arrependeu."</p>
+                    <p>"Todo mundo aqui já errou."</p>
+                </div>
+                <div class="phrase-final">
+                    "Você acredita em segunda chance…<br />
+                    <em>ou só quando é você que erra?"</em>
+                </div>
+            </div>
+            <button class="nav-btn" id="next-caso2">Continuar →</button>
+        </div>
+    </section>
+
+    <!-- ===================== TRANSIÇÃO ===================== -->
+    <section id="transicao" class="scene">
+        <div class="slide-content centered">
+            <div class="trans-lines" id="trans-lines">
+                <p class="t-line">"A Karol errou em público."</p>
+                <p class="t-line">"Todo mundo viu."</p>
+                <p class="t-line">"Todo mundo julgou."</p>
+                <p class="t-line pause"></p>
+                <p class="t-line">"Mas e quando o erro não está na TV?"</p>
+                <p class="t-line">"E quando o erro está no grupo da sala?"</p>
+                <p class="t-line">"E quando o erro está no seu celular?"</p>
+                <p class="t-line pause"></p>
+                <p class="t-line">"A gente fala de cancelamento quando é famoso."</p>
+                <p class="t-line">"Mas quando é anônimo… chama de brincadeira."</p>
+                <p class="t-line pause"></p>
+                <p class="t-line bold">"O problema não é o cancelamento."</p>
+                <p class="t-line big-pause"></p>
+                <p class="t-line bold highlight verdict">"O problema é que você só enxerga a violência quando ela está
+                    no palco."</p>
+            </div>
+            <button class="nav-btn hidden" id="next-trans">Continuar →</button>
+        </div>
+    </section>
+
+    <!-- ===================== CASO 3 – O Perfil ===================== -->
+    <section id="caso3" class="scene">
+        <div class="slide-content">
+            <div class="tag red">CASO 3</div>
+            <h2 class="reveal">O Perfil</h2>
+            <div class="perfil-intro">
+                <p class="t-line fade-text">"Imagina que criam um perfil anônimo na escola…"</p>
+            </div>
+            <div class="narrative" id="narrative-perfil">
+                <p class="line">"Postam prints."</p>
+                <p class="line">"Avaliam aparência."</p>
+                <p class="line">"Criam ranking."</p>
+                <p class="line">"Expondo segredos."</p>
+                <p class="line pause"></p>
+                <p class="line">"O perfil cresce."</p>
+                <p class="line">"Ninguém denuncia."</p>
+                <p class="line">"Todo mundo sabe."</p>
+                <p class="line pause"></p>
+                <p class="line heavy">"Uma pessoa começa a faltar aula."</p>
+                <p class="line pause"></p>
+                <p class="line accuse-line">Talvez você pense:</p>
+                <p class="line accuse-line heavy">"Eu nunca faria isso."</p>
+                <p class="line pause"></p>
+                <p class="line accuse-line">Mas você já riu de alguém?</p>
+                <p class="line accuse-line">Ou ficou em silêncio enquanto alguém era humilhado?</p>
+            </div>
+            <div class="questions hidden" id="q-perfil">
+                <p class="question-lead">Quem é responsável?</p>
+                <div class="three-phrases" id="three-phrases">
+                    <!-- preenchido por JS -->
+                </div>
+                <div class="desmonta hidden" id="desmonta">
+                    <p class="d-line">"Você não criou."</p>
+                    <p class="d-line">"Mas você seguiu."</p>
+                    <p class="d-line">"Você não postou."</p>
+                    <p class="d-line">"Mas você riu."</p>
+                    <p class="d-line">"Você não comentou."</p>
+                    <p class="d-line">"Mas você mandou no privado."</p>
+                </div>
+            </div>
+            <button class="nav-btn" id="next-caso3">Continuar →</button>
+        </div>
+    </section>
+
+    <!-- ===================== FECHAMENTO ===================== -->
+    <section id="fechamento" class="scene">
+
+        <!-- FASE 1: narrativa -->
+        <div id="close-narrative" class="slide-content centered">
+            <div class="close-lines" id="close-lines">
+                <p class="c-line">"Talvez você nunca tenha criado um perfil anônimo."</p>
+                <p class="c-line">"Mas talvez você já tenha alimentado um."</p>
+                <p class="c-line pause-lg"></p>
+                <p class="c-line">"Talvez você nunca tenha espalhado uma foto."</p>
+                <p class="c-line">"Mas talvez você tenha assistido."</p>
+                <p class="c-line pause-lg"></p>
+                <p class="c-line mid">"A diferença entre você e quem faz…<br />é só a coragem de apertar 'postar'."</p>
+                <p class="c-line pause-lg"></p>
+                <p class="c-line pause-lg"></p>
+                <p class="c-line isolation">"E se ninguém estivesse olhando…"</p>
+                <p class="c-line pause-lg"></p>
+                <p class="c-line big">"Se a ética depende de plateia…<br /><em>não é caráter."</em></p>
+                <p class="c-line pause-lg"></p>
+                <p class="c-line final" id="final-word">"É medo."</p>
+            </div>
+            <div class="restart hidden" id="box-continuar" style="margin-top: 3rem;">
+                <button id="btn-narrative-next" class="nav-btn ghost">Continuar</button>
+            </div>
+        </div>
+
+        <!-- FASE 2a: MEDO calmo (pré-clique) -->
+        <div id="glitch-stage">
+
+            <!-- sub-fase: silêncio -->
+            <div id="calm-phase">
+                <div id="calm-word">MEDO</div>
+                <button id="btn-ver">Ver o que está por trás</button>
+            </div>
+
+            <!-- sub-fase: glitch (ativado por clique) -->
+            <div id="glitch-word" data-text="MEDO">MEDO</div>
+
+        </div>
+
+        <!-- FASE 3: MEDO flood -->
+        <div id="medo-flood"></div>
+
+        <!-- FASE 4: blackout absoluto -->
+        <div id="blackout">
+            <!-- FASE 5: texto final -->
+            <div id="final-message">
+                <div id="final-text-block">
+                    <p class="final-line">Este trabalho não foi feito</p>
+                    <p class="final-line">para mudar você</p>
+                    <p class="final-line">ou ensinar o que é ética.</p>
+                    <p class="final-gap"></p>
+                    <p class="final-line">Foi feito</p>
+                    <p class="final-line emph">para mostrar quem você já é.</p>
+                    <p class="final-sub">Baseado em casos reais.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- progress indicator -->
+    <div id="progress-bar"></div>
+    <div id="scene-dots">
+        <span class="dot" data-scene="home"></span>
+        <span class="dot" data-scene="caso1"></span>
+        <span class="dot" data-scene="caso2"></span>
+        <span class="dot" data-scene="transicao"></span>
+        <span class="dot" data-scene="caso3"></span>
+        <span class="dot" data-scene="fechamento"></span>
+    </div>
+
+
+
+    <!-- ===================== SILENCE SCREEN ===================== -->
+    <div id="silence-screen"></div>
+
+    <!-- ===================== INTERACTION SCREEN ===================== -->
+    <div id="interaction-screen">
+        <p id="interaction-question">Você já riu de alguém na internet?</p>
+        <div id="interaction-buttons">
+            <button class="int-btn" id="btn-sim">SIM</button>
+            <button class="int-btn" id="btn-nao">NÃO</button>
+        </div>
+        <p id="interaction-response">Interessante.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
